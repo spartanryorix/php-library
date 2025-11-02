@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    padding-top: 20px; /* Add padding to keep the card away from the edges */
+    padding-bottom: 20px;
+    background-image: url('background.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+}
+.card:not(.card2) {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Applies a blur effect to the background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border with some transparency */
+    border-radius: 15px; /* More rounded corners for a modern look */
+    width: 1300px;
+    max-width: 1500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for better depth */
+    position: relative;
+    color: #333; /* Text color for better contrast */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s forwards; /* Fade-in over 2 seconds */
+}
+.card2 {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Applies a blur effect to the background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border with some transparency */
+    border-radius: 15px; /* More rounded corners for a modern look */
+    width: 500px;
+    height: 150px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for better depth */
+    position: relative;
+    color: #333; /* Text color for better contrast */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s forwards; /* Fade-in over 2 seconds */
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+.navbar-text{
+    font-size: 15px;
+}
+table {
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+thead {
+    background-color: #343a40;
+    color: white;
+}
+
+table th,
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+table td {
+    color: #000000; /* Dark black text */
+    padding: 10px;  /* Padding for better spacing */
+}
+.btn-danger {
+    font-weight: bold;
+}
+.btn-warning {
+    font-weight: bold;
+}
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

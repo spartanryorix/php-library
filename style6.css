@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    padding-top: 20px; /* Add padding to keep the card away from the edges */
+    padding-bottom: 20px;
+    background-image: url('background.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+}
+.card {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Applies a blur effect to the background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border with some transparency */
+    width: 1300px;
+    max-width: 1500px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for better depth */
+    position: relative;
+    color: #333; /* Text color for better contrast */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s forwards; /* Fade-in over 2 seconds */
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+}
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.lead{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+.card img {
+    height: 250px; /* Adjust as needed to fit your design */
+    object-fit: cover; /* Make the image fill the area without distortion */
+}
+
+.card-body {
+    padding-top: 20px; /* Adjust this padding if you still need spacing below the image */
+}
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

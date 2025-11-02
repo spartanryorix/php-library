@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    background-image: url('background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+.card {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Applies a blur effect to the background */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border with some transparency */
+    border-radius: 15px; /* More rounded corners for a modern look */
+    width: 25rem;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly larger shadow for better depth */
+    position: relative;
+    color: #333; /* Text color for better contrast */
+}
+.card label, .card input, .card .form-text {
+    color: #000; /* Lighter color for text to improve contrast */
+}
+h2, h5 {
+    color: #000;
+}
+h6 a {
+    color: white;
+    text-decoration: none;
+}
+h6 a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Light border with some transparency */
+    backdrop-filter: blur(8px); /* Applies a blur effect to the background */
+    border-radius: 5px; /* Rounded corners for inputs */
+    color: #333; /* Dark text color for better readability */
+}
+
+/* Styling for form labels and text */
+.form-label, .form-text {
+    color: #000; /* Dark text color */
+}
+
+
