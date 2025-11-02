@@ -34,14 +34,14 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/spartanryorix/php-library.git
 2. **Move the project folder into your XAMPP htdocs directory**
-   C:\xampp\htdocs\
+   - C:\xampp\htdocs\
 3. **Start Apache and MySQL from your XAMPP Control Panel**
 4. **Create the Database**
-   Go to http://localhost/phpmyadmin
-   Click Import
-   Choose the file located at:
-     database/library.sql
-   Click Go
+   - Go to http://localhost/phpmyadmin
+   - Click Import
+   - Choose the file located at:
+        - database/library.sql
+   - Click Go
 5. **Access the system in your browser:**
    http://localhost/php-library
 
@@ -50,15 +50,15 @@ Follow these steps to set up the project locally:
    
 ## 🔑 Default Login (Demo)
 Use the following credentials to test the system:
-**Admin Login**
-Username: ryrawwrix
-Password: frfrfrfr
-**Customer Login**
-Username: kingrake
-Password: fr*4
+- **Admin Login**
+   - Username: ryrawwrix
+   - Password: frfrfrfr
+- **Customer Login**
+   - Username: kingrake
+   - Password: fr*4
 
 ---
 
 ## 🧑‍💻 Author
-**Abdul Rakeeb**
-Github: @spartanryorix
+- **Abdul Rakeeb**
+- Github: @spartanryorix
