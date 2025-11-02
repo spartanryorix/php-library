@@ -4,7 +4,7 @@ body {
     align-items: center; /* Vertically center */
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margin */
-    padding-top: 20px; /* Add padding to keep the card away from the edges */
+    padding-top: 200px; /* Add padding to keep the card away from the edges */
     padding-bottom: 20px;
     background-image: url('background.jpg'); /* Your background image */
     background-size: cover;
